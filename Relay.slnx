@@ -1,0 +1,21 @@
+<Solution>
+  <Project Path="server/Relay.Api.csproj" />
+  <Folder Name="/Client/">
+    <File Path="client/index.html" />
+    <File Path="client/package.json" />
+    <File Path="client/tsconfig.json" />
+    <File Path="client/vite.config.ts" />
+  </Folder>
+  <Folder Name="/Client/src/">
+    <File Path="client/src/api.ts" />
+    <File Path="client/src/brand.ts" />
+    <File Path="client/src/main.tsx" />
+    <File Path="client/src/projects.tsx" />
+    <File Path="client/src/style.css" />
+  </Folder>
+  <Folder Name="/Setup/">
+    <File Path="README.md" />
+    <File Path="compose.yaml" />
+    <File Path="tests/smoke.ps1" />
+  </Folder>
+</Solution>
